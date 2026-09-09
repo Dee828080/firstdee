@@ -1,0 +1,17 @@
+{
+  "name": "firstdee",
+  "install": "python3 --version",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 .cursor/serve.py",
+      "description": "Static dev server for the firstdee site on port 8000 (serves the html file at /)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 8000
+    }
+  ]
+}
